@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	margin:0;
+	padding:0;
+	background: #F0F2F5;
+}
+.row{
+	display: inline-block;
+	margin: auto;
+	clear: both;
+	background: #F0F2F5;
+}
+.col1{
+	float: left;
+	box-shadow: 2px;
+	border: 2px solid #F0F2F5;
+	padding: 150px 150px;
+	width:696px;
+	height: auto;
+}
+.col2{
+	width: 396px;
+	height: auto;
+	box-sizing:border-box;
+	background-color: #fff;
+	border: 3px solid #ffffff;
+	border-radius: 10px;
+	position: relative;
+	float: right; 
+	border: 2px solid #fff;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+.col2 .col1txt{
+	display: inline-block;
+	margin: auto;
+	padding: 6px 0;
+}
+.col2 .col1txt .inputtxt{
+	width:364px;
+	height: 64px;
+	padding: 6px 0;
+	margin-left:15px;
+	border: 2px solid #dddfe2;
+	border-radius: 10px;
+	vertical-align: middle;
+	display: inline-block;
+} 
+.col2 .col1txt .inputpass{
+	width:364px;
+	height: 64px;
+	padding: 6px 0;
+	margin-left:15px;
+	border: 2px solid #dddfe2;
+	border-radius: 10px;
+	vertical-align: middle;
+	display: inline-block;
+} 
+.col2 .col1txt .inputbot{
+	background: #166FE5;
+	color:white;
+	display:inline-block;
+	justify-content: center;
+	vertical-align:middle;
+	border: 2px solid #166FE5;
+	border-radius: 10px;
+	text-align:center; 
+	margin-left:15px;
+	width: 364px;
+	height: 48px;
+	cursor: pointer;
+}
+.col2 .col1txt .inputbot:hover{
+	background: #347bed;
+}
+.forget{ 
+	color: #1666EE;
+	padding-top: 15px;
+	text-decoration: none; 
+	justify-content: center;
+	margin: 120px;
+}
+.forget:hover{
+	text-decoration: underline;
+}
+.dotline{
+	
+	text-align: center;
+	align-items: center;
+	border: 1px solid #dddfe2;
+	display: flex;
+	margin: 20px 16px;
+	
+}
+.buttom{
+	color: #ffffff;
+	font-size: 20px;
+	background:#36a420;
+	width: 80px;
+	padding: 10px 20px;
+	margin-left:80px;
+	text-decoration: none;
+	border: 1px solid #36A420;
+	border-radius:10px;
+}
+.buttom:hover{
+	background: #54b740;
+}
+.col3{
+	text-align: center;
+	font-size: 12px;
+}
+.col3 h4{
+	text-align: center;
+	margin: 10px;
+}
+.col3 a{
+	text-decoration: none;
+	color: #00000;
+}
+.col3 a:hover{
+	text-decoration: underline;
+}
